@@ -1,0 +1,6 @@
+tuplaNumero = (0,1,2,3,4,5)
+listnumero = list(tuplaNumero)
+listnumero.pop(3)
+listnumero.insert(1, 4)
+tuplaNumero = (listnumero)
+print(tuplaNumero)
